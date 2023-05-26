@@ -1,0 +1,127 @@
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+@import url('https://unpkg.com/flickity@2/dist/flickity.min.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .table {
+        @apply border-gray-200 dark:border-slate-700 rounded;
+    }
+    
+    thead>tr {
+      @apply bg-gray-50 dark:bg-slate-700 ;
+    }
+  
+    th {
+      @apply border-b border-slate-200 dark:border-slate-700 px-4 py-3;
+    }
+  
+    td {
+      @apply border-b border-slate-200 dark:border-slate-700 px-4 py-3;
+    }
+  
+    .table-hover :not(thead) tr:hover {
+      @apply bg-slate-100 dark:bg-slate-600;
+    }
+
+    *:not(input,textarea,select,.flickity-enabled):focus-visible {
+      @apply rounded-lg ring-offset-2 first-letter:ring-offset-2 ring-2 ring-sky-500 dark:ring-sky-400 dark:ring-offset-slate-900
+    }
+
+    * {
+      @apply dark:ring-offset-slate-900
+    }
+
+    /* flickity
+    ** https://flickity.metafizzy.co/style.html 
+    */
+  }
+
+/* no circle */
+.flickity-button {
+  background: transparent;
+}
+/* big previous & next buttons */
+.flickity-prev-next-button {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+/* big previous & next buttons */
+.flickity-prev-next-button:hover {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+
+@media screen and (min-width: 768px) {
+  .flickity-prev-next-button {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .flickity-prev-next-button:hover {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+.flickity-button:hover {
+  background: transparent;
+}
+
+/* icon color */
+.flickity-button-icon {
+  fill: white;
+}
+/* hide disabled button */
+.flickity-button:disabled {
+  display: none;
+}
+
+/* scroll bar */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #e6e6e6;
+  padding: 1rem;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #acacac;
+  border-radius: 100vh;
+  border: 3px solid transparent;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: rgb(163, 163, 163);
+}
+
+/* darkmode scroll bar */
+/* scroll bar */
+
+html.dark *::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #1f2937;
+  padding: 1rem;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #6b7280;
+  border-radius: 100vh;
+  border: 3px solid transparent;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+*:focus-visible {
+  outline: none;
+}

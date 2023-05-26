@@ -1,0 +1,308 @@
+{
+    "_id": {
+      "$oid": "63d51fd696ce5b54d526e514"
+    },
+    "course_id": 10001,
+    "course_name": {
+      "full_th": "ความรู้เบื้องต้นเกี่ยวกับการพัฒนาเว็บ",
+      "full_en": "Introduction to Web Development",
+      "short": "INTRO WEB DEV"
+    },
+    "course_code": "2301378",
+    "course_academic_years": 2020,
+    "course_semester": 1,
+    "course_credit": 3,
+    "course_objectives": [
+        "Understand fundamental concept of web mechanism, web browsers",
+        "Able to develop website in front-end part using appropriate tools",
+        "Able to develop website in back-end part using appropriate tools",
+        "Understand fundamental concept of web security and web common treats"
+    ],
+    "course_instructors": [
+        {
+            "name_th": {
+                "title": "ผศ.ดร.",
+                "first": "ภควรรณ",
+                "last": "ปักษี"
+            },
+            "name_en": {
+                "title": "Asst. Prof. Dr.",
+                "first": "Pakawan",
+                "last": "Pugsee"
+            },
+            "img_url": "https://d2ijd3g5wqapxj.cloudfront.net/wp-content/uploads/2019/05/Pakawan-Pugsee1-1-5.jpg",
+            "email": "pakawan.p@chula.ac.th",
+            "nickname": null
+        },
+        {
+            "name_th": {
+                "title": "ผศ.ดร.",
+                "first": "ฑิตยา",
+                "last": "หวานวารี"
+            },
+            "name_en": {
+                "title": "Asst. Prof. Dr.",
+                "first": "Dittaya",
+                "last": "Wanvarie"
+            },
+            "img_url": "https://d2ijd3g5wqapxj.cloudfront.net/wp-content/uploads/2019/05/Dittaya-Wanvarie-1-5.jpg",
+            "email": "dittaya.w@chula.ac.th",
+            "nickname": null
+        }
+    ],
+    "course_contact": {
+        "facebook_group": "https://www.facebook.com/groups/INTROWEBDEV/",
+        "team": "#link-to-team",
+        "echo": "https://echo360.org.au/"
+    },
+    "course_announcements": [
+        {
+            "title": "Announcement 1",
+            "content": "ประชาสัมพันธ์การสอบปลายภาค 2565 วันที่ 2 ธันวาคม 2021 เวลา 12:00 น. อาคารมหาวชิรุณหิศ ห้อง 608 เป็นแบบ Openbook",
+            "datetime": "2020-01-01",
+            "display_status": false,
+            "views": [
+                {
+                    "user_id": 1,
+                    "datetime": "2021-01-24 01:01:59"
+                }
+            ]
+        }
+    ],
+    "course_contents": [
+        {
+            "file_id": 10001,
+            "file_name": "Week 1",
+            "file_path": "https://learn.sj-assist.com/report.pdf",
+            "file_date": {
+                "upload": "2020-01-01 01:00:00",
+                "update": "2020-01-01 01:00:00"
+            }
+        },
+        {
+            "file_id": 10002,
+            "file_name": "Week 2",
+            "file_path": "https://learn.sj-assist.com/report.pdf",
+            "file_date": {
+                "upload": "2020-01-01 01:00:00",
+                "update": "2020-01-01 01:00:00"
+            }
+        },
+        {
+            "file_id": 10003,
+            "file_name": "Project",
+            "file_date": {
+                "upload": "2020-01-01 01:00:00",
+                "update": "2020-01-01 01:00:00"
+            },
+            "children": [
+                {
+                    "file_id": 10004,
+                    "file_name": "Instruction",
+                    "file_path": "https://learn.sj-assist.com/report.pdf",
+                    "file_date": {
+                        "upload": "2020-01-01 01:00:00",
+                        "update": "2020-01-01 01:00:00"
+                    }
+                },
+                {
+                    "file_id": 10005,
+                    "file_name": "Report.pdf",
+                    "file_path": "https://learn.sj-assist.com/report.pdf",
+                    "file_date": {
+                        "upload": "2020-01-01 01:00:00",
+                        "update": "2020-01-01 01:00:00"
+                    }
+                }
+            ]
+        }
+    ],
+    "course_external_links": [
+        {
+            "link_id": 10001,
+            "link_name": "How the web works",
+            "link_description": "A short introduction to how the web works",
+            "link_url": "https://www.google.com"
+        },
+        {
+            "link_id": 10002,
+            "link_name": "How the browser work",
+            "link_description": "",
+            "link_url": "https://www.google.com"
+        }
+    ],
+    "course_playlist": [
+        {
+            "playlist_id": "PLXrcMYmkJVUQAdDuNsDIB0HY20tOJqGvK",
+            "playlist_name": "Web Dev 101",
+            "playlist_description": "A playlist of web dev 101",
+            "playlist_channel_name": "Jirakit Jirapongwanich",
+            "playlist_progress": 0,
+            "playlist_cover": "https://i.ytimg.com/vi/xORdz1Hi9Gc/maxresdefault.jpg",
+            "playlist_url": "https://www.youtube.com/playlist?list=PLXrcMYmkJVUQAdDuNsDIB0HY20tOJqGvK",
+            "playlist_videos": [
+                {
+                    "video_image": "https://i.ytimg.com/vi/xORdz1Hi9Gc/hqdefault.jpg",
+                    "video_title": "Web Dev 101 - 1. Introduction",
+                    "video_url": "https://www.youtube.com/watch?v=xORdz1Hi9Gc",
+                    "video_progress": 0
+                }
+            ]
+        }
+    ],
+    "course_assignment": [
+        {
+            "assignment_id": 10001,
+            "assignment_name": "Assignment 1",
+            "assignment_date": {
+                "create": "2020-01-01 01:00:00",
+                "update": "2020-01-01 01:00:00",
+                "due": "2020-01-01 01:00:00"
+            },
+            "assignment_description": "This is assignment 1",
+            "assignment_attempt": 0,
+            "assignment_score": 0,
+            "assignment_status": "assigned|openned|pending|completed|graded",
+            "assignment_worksheet_url": "https://www.mycourseville.com/?q=courseville/worksheet/31243/789301",
+            "assignment_type": "essay|file|questionset",
+            "assignment_group": "individual|group",
+            "assignment_questionset": [
+                {
+                    "question": "What is your name?",
+                    "type": "open"
+                },
+                {
+                    "question": "What is your best choice?",
+                    "type": "choices",
+                    "choices": [
+                        {
+                            "choice_id": 1,
+                            "choice_text": "Choice 1"
+                        },
+                        {
+                            "choice_id": 2,
+                            "choice_text": "Choice 2"
+                        },
+                        {
+                            "choice_id": 3,
+                            "choice_text": "Choice 3"
+                        },
+                        {
+                            "choice_id": 4,
+                            "choice_text": "Choice 4",
+                            "correct_answer": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "course_discussion": [
+        {
+            "discussion_id": 10001,
+            "discussion_topic": "วิศวกรรมซอฟต์แวร์",
+            "discussion_date": {
+                "create": "2020-01-01 01:00:00",
+                "start": "2020-01-01 01:00:00",
+                "ended": "2020-01-01 01:00:00"
+            },
+            "discussion_description": "นิสิตคิดว่าวิศวกรรมซอฟต์แวร์มีวิธีการที่ดีที่สุดหรือไม่ เพราะเหตุใด ?",
+            "posts": [
+                {
+                    "post_id": 10001,
+                    "post_date": {
+                        "create": "2020-01-01 01:00:00",
+                        "update": "2020-01-01 01:00:00"
+                    },
+                    "post_content": "lorem ipsum dolar sit amet ...",
+                    "users": {
+                        "img_url": "https://www.mycourseville.com/sites/all/modules/courseville/pict/default_platform_portrait.svg",
+                        "name": {
+                            "first": "Dirak",
+                            "last": "Raksakorn"
+                        }
+                    },
+                    "comments": [
+                        {
+                            "comment_id": 10001,
+                            "comment_date": {
+                                "create": "2020-01-01 01:00:00",
+                                "update": "2020-01-01 01:00:00"
+                            },
+                            "comment_content": "lorem ipsum dolar sit amet ...",
+                            "users": {
+                                "img_url": "https://www.mycourseville.com/sites/all/modules/courseville/pict/default_platform_portrait.svg",
+                                "name": {
+                                    "first": "Dirak",
+                                    "last": "Raksakorn"
+                                }
+                            },
+                            "replys": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "course_schedule": [
+        {
+            "schedule_id": 10001,
+            "schedule_name": "Lecture 1",
+            "schedule_description": "This is lecture 1",
+            "schedule_datetime": {
+                "start": "2021-01-01 01:00:00",
+                "end": "2021-01-01 01:00:00"
+            },
+            "schedule_status": "0|1|2|3",
+            "schedule_attachment": [
+                {
+                    "file_id": 10003,
+                    "file_name": "Project",
+                    "file_date": {
+                        "upload": "2020-01-01 01:00:00",
+                        "update": "2020-01-01 01:00:00"
+                    
+                    }
+                }
+            ],
+            "schedule_zoom": "https://zoom.us/j/1234567890?pwd=1234567890"
+        }
+    ],
+    "course_gradable_items": [
+        {
+            "gradable_id": 10001,
+            "gradable_name": "Midterm",
+            "gradable_feedback": "",
+            "gradable_score": 33,
+            "gradable_maxscore": 50
+        },
+        {
+            "gradable_id": 10002,
+            "gradable_name": "Final",
+            "gradable_feedback": "",
+            "gradable_score": 33,
+            "gradable_maxscore": 50
+        }
+    ],
+    "course_group": [
+        {
+            "gropping_name": "Default Grouping",
+            "groups": [
+                {
+                    "group_id": 10001,
+                    "group_name": "Group 1",
+                    "group_img": "https://courseville-x.vercel.app/assets/icon-default-58316367.png",
+                    "group_description": "This is group 1",
+                    "group_members": []
+                },
+                {
+                    "group_id": 10002,
+                    "group_name": "Group 2",
+                    "group_img": "https://courseville-x.vercel.app/assets/icon-default-58316367.png",
+                    "group_description": "This is group 2",
+                    "group_members": []
+                }
+            ]
+        }
+    ]
+}
